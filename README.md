@@ -104,8 +104,22 @@ Every `NeighborhoodBoard` is linked to a public RRC channel address, directly de
 ```
 r38et-mesh/
 ├── assets/                   # Media & DEAL / Doughnut illustrations
-├── docs/
-│   └── PHILOSOPHY.md         # Full intellectual and philosophical lineage
+├── config/                   # Neighborhood board initialization & council configs
+│   └── board.json
+├── docs/                     # Full intellectual and philosophical treatise
+│   └── PHILOSOPHY.md
+├── norms/                    # Catala legal DSL specifications
+│   └── level_8/              # Constitutional basic human rights & invariants
+├── schemas/                  # Formal JSON schemas for BitVecs, WoT & lifecycle
+│   └── governance.json
+├── src/                      # Python package & protocol implementations
+│   └── sp0t_node.py
+├── tests/                    # Unit & integration test suites
+│   └── test_sp0t_node.py
+├── wot/                      # Local Web of Trust state graph
+│   └── attestations.json
+├── pyproject.toml            # PEP 621 package & tool configurations
+├── sp0t-node.py              # CLI launcher
 ├── LICENSE                   # GNU General Public License v3.0
 └── README.md                 # Project manifesto & architectural blueprint
 ```
