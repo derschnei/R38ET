@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="230.661"
+   height="78.438"
+   viewBox="0 0 230.661 78.438"
+   aria-labelledby="svgtitle1"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="gemini-svg.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     id="namedview28"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.9208604"
+     inkscape:cx="54.962425"
+     inkscape:cy="34.94131"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <title
+     id="svgtitle1">Doughnut Economics Action Lab</title>
+  <!-- Hintergrund in #f3d225 (bzw. #f3d225ff) -->
+  <rect
+     width="102.43259%"
+     height="104.5522%"
+     fill="#f3d225"
+     id="rect1"
+     style="fill:#f4d225;fill-opacity:1;stroke-width:1.03487"
+     x="-2.8055067"
+     y="-1.7853225" />
+  <path
+     fill="#000000"
+     d="M 39.22,4.002 A 35.215,35.215 0 1 1 4.002,39.217 35.257,35.257 0 0 1 39.22,4.002 m 0,52.4 a 17.188,17.188 0 1 0 -17.19,-17.19 17.208,17.208 0 0 0 17.19,17.19 m 0,-56.407 A 39.219,39.219 0 1 0 78.44,39.212 39.219,39.219 0 0 0 39.22,0 Z m 0,52.4 A 13.186,13.186 0 1 1 52.405,39.207 13.185,13.185 0 0 1 39.22,52.405 Z"
+     id="path1"
+     style="fill:#1f1f1f;fill-opacity:1" />
+  <path
+     fill="#000000"
+     d="m 84.099493,19.152132 h 15.35093 c 11.885297,0 18.765447,7.295578 18.765447,18.869866 0,11.574288 -7.03788,18.818768 -18.916517,18.818768 H 84.106158 V 19.152132 Z m 15.65306,28.562497 c 5.764927,0 8.568527,-4.694138 8.568527,-9.737062 0,-5.042924 -2.75029,-9.690412 -8.568527,-9.690412 h -6.120379 v 19.427474 z"
+     id="path2"
+     style="fill:#1f1f1f;fill-opacity:1;stroke-width:2.22155" />
+  <path
+     fill="#000000"
+     d="m 123.14336,19.154352 h 27.22957 v 8.824006 h -17.64357 v 5.553881 h 16.3173 v 8.77069 h -16.3173 v 5.711612 h 17.6058 v 8.824006 h -27.1918 z"
+     id="path10"
+     style="fill:#1f1f1f;fill-opacity:1;stroke-width:2.22155" />
+  <path
+     fill="#000000"
+     d="m 179.37094,49.953954 h -11.98305 l -2.24599,6.886812 h -9.84148 l 13.77363,-37.688634 h 8.87065 l 13.41374,37.688634 h -9.79038 z m -5.86268,-19.427474 -3.72332,11.167742 h 7.29558 z"
+     id="path19"
+     style="fill:#1f1f1f;fill-opacity:1;stroke-width:2.22155" />
+  <path
+     fill="#000000"
+     d="m 196.28593,19.155463 h 9.586 v 28.606931 h 18.30559 v 9.075042 h -27.89159 z"
+     id="path25"
+     style="fill:#1f1f1f;fill-opacity:1;stroke-width:2.22155" />
+</svg>

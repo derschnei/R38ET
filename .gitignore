@@ -1,0 +1,33 @@
+# Local development & reference materials
+local/
+deprecated/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & dependencies
+.venv/
+env/
+venv/
+ENV/
+
+# Reticulum Network Stack & storage
+.reticulum/
+storage/
+cache/
+*.id
+*.identity
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
