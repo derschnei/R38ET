@@ -1,0 +1,21 @@
+> # R38ET Level 8: Fundamental Human Invariants & Ecological Ceiling
+>
+> Unalterable constitutional boundary conditions (Lex Superior).
+> Subordinate norms must satisfy these invariants fail-closed.
+
+```catala
+declaration structure Person:
+  data is_sovereign: boolean
+  data bodily_integrity_protected: boolean
+  data water_access_guaranteed: boolean
+
+declaration scope HumanRightsInvariant:
+  input person: Person
+  output allowed: boolean
+
+scope HumanRightsInvariant:
+  definition allowed equals
+    person.is_sovereign and
+    person.bodily_integrity_protected and
+    person.water_access_guaranteed
+```

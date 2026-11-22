@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "R38ET-Mesh Governance Schema",
+  "$defs": {
+    "BoardTile": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 536870911,
+      "description": "29-bit BitVec spatial residential location pointer (0 = unassigned/genesis, 1..0x1FFFFFFF incrementing bottom-up)"
+    },
+    "GhaTile": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 8589934591,
+      "description": "33-bit BitVec global biocapacity census share (0x1FFFFFFFF down to 1), decrementing top-down"
+    },
+    "ReticulumIdentityHash": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{32}$",
+      "description": "16-byte Reticulum truncated SHA-256 identity hash"
+    },
+    "HumanRecord": {
+      "type": "object",
+      "required": [
+        "identity_hash",
+        "board_tile",
+        "gha_tile",
+        "status",
+        "created_at"
+      ],
+      "properties": {
+        "identity_hash": {
+          "$ref": "#/$defs/ReticulumIdentityHash",
+          "description": "The Reticulum identity hash representing this living human"
+        },
+        "board_tile": { "$ref": "#/$defs/BoardTile" },
+        "gha_tile": { "$ref": "#/$defs/GhaTile" },
+        "status": {
+          "type": "string",
+          "enum": ["ACTIVE", "DECEASED"],
+          "description": "Lifecycle state: ACTIVE or DECEASED (frees GhaTile back to ecological pool)"
+        },
+        "created_at": {
+          "type": "integer",
+          "description": "Unix timestamp of initial registration (used for Lex Prior collision resolution)"
+        },
+        "deceased_at": { "type": ["integer", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "WoTAttestation": {
+      "type": "object",
+      "required": [
+        "attestor_hash",
+        "subject_hash",
+        "timestamp",
+        "sas_hash",
+        "board_tile",
+        "signature"
+      ],
+      "properties": {
+        "attestor_hash": { "$ref": "#/$defs/ReticulumIdentityHash" },
+        "subject_hash": { "$ref": "#/$defs/ReticulumIdentityHash" },
+        "timestamp": { "type": "integer" },
+        "sas_hash": {
+          "type": "string",
+          "description": "Salted SAS commitment hash sha256(sas_code:sas_salt)"
+        },
+        "board_tile": { "$ref": "#/$defs/BoardTile" },
+        "signature": {
+          "type": "string",
+          "description": "Hex-encoded Ed25519 signature by attestor's RNS identity key"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

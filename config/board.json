@@ -1,0 +1,8 @@
+{
+  "board_tile": 1,
+  "board_tile_hex": "0x00000001",
+  "name": "Genesis Neighborhood Board #1",
+  "level": 1,
+  "rrc_channel": "rrc/board/0x00000001",
+  "created_at": 1731950000
+}
