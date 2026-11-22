@@ -30,12 +30,14 @@ Modern socio-economic systems face compounding structural crises rooted in insti
 R38ET_mesh synthesizes a 3,000-year [philosophical lineage](docs/PHILOSOPHY.md) into formal logic and decentralized infrastructure. A paradigm of **relational human stewardship**, replaces coercive bureaucracies with direct democratic participation.
 
 ### Socio-Ecological Foundation & Governance Architecture 
-<p align="right"><img width="400" src="assets/English%20Doughnut.jpg"></p>
+
+![](assets/english-doughnut.jpg)
 
 - **Doughnut Economics / [DEAL](https://doughnuteconomics.org/) (Macro-Framework & Eco-Social Accounting):**  
 Kate Raworth's Doughnut Economics form governance boundaries. The **Social Foundation** is codified as unconditional human rights, while the **Ecological Ceiling** (planetary limits) is bounded by local and global biocapacity tiles (`gha_tile`), securing every individual's equal claim to the global commons ($1/2^{33}$).
 - **Polycentric Commons Governance (Micro- & Meso-Level Democracy):**  
 Elinor Ostrom's Nobel Prize-winning [design principles](https://en.wikipedia.org/wiki/Elinor_Ostrom#%22Design_principles_illustrated_by_long-enduring_CPR_(Common_Pool_Resource)_institutions%22) for collective action structure the democratic process. Decision-making originates at local neighborhood `boards` and scales upward via subsidiarity, while functional service execution is delegated to transparent executive `committee`.
+
 - **Kelsenian Legal Determinism (*Reine Rechtslehre*):**  
 Adopts Hans Kelsen's Pure Theory of Law and the *Stufenbau der Rechtsordnung* (hierarchy of legal norms). Norm validity is determined structurally (*Lex Superior*, *Lex Specialis*, *Lex Posterior*) rather than by corruptable political delegates.
 - **Plural Tools ([RadicalxChange](https://www.radicalxchange.org/)):**  
@@ -153,5 +155,5 @@ python3 sp0t-node.py start
 ```
 
 ## License
-Documentation (`.md`) is licensed under **CC BY-SA 4.0** and code (`.py`, `.json`) under **GPL-3.0+**. 
+Documentation (`.md`) is licensed under **CC BY-SA 4.0** and code (`.py`, `.json`) under **GPL-3.0+**.  
 See [LICENSE](LICENSE) for details.
