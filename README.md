@@ -114,14 +114,13 @@ r38et-mesh/
 │   └── level_8/              # Constitutional basic human rights & invariants
 ├── schemas/                  # Formal JSON schemas for BitVecs, WoT & lifecycle
 │   └── governance.json       
-├── src/                      # Python package & protocol implementations
+├── src/                      # Python runtime daemon & protocol engine
 │   └── sp0t_node.py
 ├── tests/                    # Unit & integration test suites
 │   └── test_sp0t_node.py
 ├── wot/                      # Local Web of Trust state graph
 │   └── attestations.json
 ├── pyproject.toml            # PEP 621 package & tool configurations
-├── sp0t-node.py              # CLI launcher
 ├── LICENSE                   # GNU General Public License v3.0
 └── README.md                 # Project manifesto & architectural blueprint
 ```
@@ -151,7 +150,7 @@ https://github.com/R38ET/release/latest
 
 ```bash
 rnsd -s
-python3 sp0t-node.py start
+python3 src/sp0t_node.py start
 ```
 
 ## License

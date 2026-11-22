@@ -10,7 +10,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-# Add src/ to path
+# Canonical import from src/
 _ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(_ROOT / "src"))
 
