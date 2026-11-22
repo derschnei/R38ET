@@ -113,14 +113,20 @@ r38et-mesh/
 ## Quickstart
 
 ### 1. Dependencies
-Install the latest releases of:
-- [Python](https://www.python.org/downloads/)
-- [OCaml](https://ocaml.org/install)
 
-```bash
-pip install rns jsonschema
-opam install catala catala-lsp
-```
+- **Core Runtime (Python 3.10+):**
+  Install [Python](https://www.python.org/downloads/) and mesh dependencies:
+  ```bash
+  pip install rns jsonschema
+  ```
+
+- **Optional: Legal DSL Compiler ([Catala](https://catala-lang.org/)):**
+  Required only for formal norm verification (`catala check`) via [OCaml/opam](https://ocaml.org/install):
+  ```bash
+  opam install catala
+  # Optional IDE / editor language server:
+  # opam install catala-lsp
+  ```
 
 ### 2. Install `sp0t-node`
 https://github.com/R38ET/release/latest
