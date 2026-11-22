@@ -1,0 +1,42 @@
+> # R38ET Level 8: Fundamental Human Invariants & Ecological Ceiling
+>
+> Unalterable constitutional boundary conditions (Lex Superior / Kate Raworth DEAL Social Foundation).
+> Notice: This specification serves as an architectural proposal and template for Level 8.
+> Subordinate norms must satisfy these invariants fail-closed.
+
+```catala
+declaration structure Person:
+  data is_sovereign: boolean
+  data bodily_integrity_protected: boolean
+  data water_access_guaranteed: boolean
+  data food_access_guaranteed: boolean
+  data housing_guaranteed: boolean
+  data energy_access_guaranteed: boolean
+  data healthcare_access_guaranteed: boolean
+  data education_access_guaranteed: boolean
+  data gender_equality_respected: boolean
+  data social_equity_respected: boolean
+  data political_voice_guaranteed: boolean
+  data peace_and_justice_protected: boolean
+  data network_connectivity_guaranteed: boolean
+
+declaration scope HumanRightsInvariant:
+  input person: Person
+  output allowed: boolean
+
+scope HumanRightsInvariant:
+  definition allowed equals
+    person.is_sovereign and
+    person.bodily_integrity_protected and
+    person.water_access_guaranteed and
+    person.food_access_guaranteed and
+    person.housing_guaranteed and
+    person.energy_access_guaranteed and
+    person.healthcare_access_guaranteed and
+    person.education_access_guaranteed and
+    person.gender_equality_respected and
+    person.social_equity_respected and
+    person.political_voice_guaranteed and
+    person.peace_and_justice_protected and
+    person.network_connectivity_guaranteed
+```
