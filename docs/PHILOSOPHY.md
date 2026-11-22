@@ -48,6 +48,7 @@ Modern governance systems frequently suffer from institutional bureaucracy, arbi
 - **Erich Mühsam (1919) — Council Republic & Anti-Authoritarianism:** Advocated for direct democratic council self-organization without centralized state control.
 - **Gustav Landauer (1919) — Structural Transformation of Society:** Defined the state not as a physical object, but as a relational pattern to be replaced by building organic community alternatives.
 - **Martin Heidegger (1927) — Dasein & Critique of Technocratic Enclosure (Das Gestell):** Warned against reducing human existence and nature to mere operational resources (*Bestand*) within technological systems.
+- **John Maynard Keynes (1936) – The General Theory of Employment, Interest and Money** Demonstrates how unregulated markets fail to self-correct during economic crises due to aggregate demand deficiencies. It establishes that deliberate rule-making and collective institutional intervention are necessary to prevent systemic instability and persistent unemployment.
 - **Hans Kelsen (1934) — Pure Theory of Law (Reine Rechtslehre):** De-personalized law into an objective normative system, laying the groundwork for algorithmic legal determinism.
 - **Charlie Chaplin (1940) — The Great Dictator:** *\"You are not machines! You are not cattle! You are men! You have the love of humanity in your hearts!\"* A timeless declaration against mechanical authoritarianism.
 
