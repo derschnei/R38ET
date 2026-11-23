@@ -13,7 +13,13 @@ The R38ET movement aims to replace the turbo-capitalist, competitive zeitgeist, 
 
 Operating entirely serverless over the **[Reticulum Network Stack (RNS)](https://github.com/markqvist/Reticulum)** and **[LXMF](https://github.com/markqvist/LXMF)**, R38ET_mesh pairs a physical, bot-resistant **Web of Trust (WoT)** with a **Git-native Norm Library** (`rngit`) and a DSL-based legal verifier (**NormLinter** powered by **[Catala](https://catala-lang.org/)**). It binds direct democracy boards (*Levels 1–7*) within a shield of fundamental human rights (*Level 8 Invariants*) and planetary biocapacity limits (*33-Bit GHA Tile Allocation*).
 
-For more information see the [R38ET Manifesto](docs/MANIFESTO.md) and [Philosophical Lineage](docs/PHILOSOPHY.md).
+| Document | What it is | Read it if you want to know |
+| :--- | :--- | :--- |
+| [MANIFESTO](MANIFESTO.md) | The demand | what we want, in ten minutes |
+| [PHILOSOPHY](PHILOSOPHY.md) | The intellectual lineage | where the ideas come from |
+| [HISTORY](HISTORY.md) | The register of attempts | what was tried, how, and why it failed |
+| [CONCEPT](CONCEPT.md) | The synthesis | how R38ET is built and why |
+| [README](README.md) | The architecture | how the code works |
 
 ## The `sp0t-node` Software
 The architecture replaces heavy relational databases and complex custom parsers, with a **distributed repository** (`WoTGraph`, `NormLibrary`) as the single source of truth and **Catala** for formal logic checks.
@@ -92,7 +98,8 @@ r38et-mesh/
   ```
 
 ### 2. Download `sp0t-node`
-https://github.com/R38ET/release/latest
+**pre-alpha, no release yet!**
+github.com/R38ET/release/releases/latest
 
 ### 3. Start the Daemons `rns` and `sp0t-node`
 

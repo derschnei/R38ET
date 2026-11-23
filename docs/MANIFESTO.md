@@ -12,11 +12,11 @@ Modern socio-economic systems face compounding structural crises rooted in insti
 	- De facto Lobbycracy: Accumulated Wealth directly translates to political influence and skews decision making in favour of *the 1 %*.
 
 # Solutions for a New Millennium
-R38ET_mesh synthesizes a 3,000-year [philosophical lineage](docs/PHILOSOPHY.md) into formal logic and decentralized infrastructure. A paradigm of **relational human stewardship**, replaces coercive bureaucracies with direct democratic participation.
+R38ET_mesh synthesizes a 3,000-year [philosophical lineage](PHILOSOPHY.md) into formal logic and decentralized infrastructure. A paradigm of **relational human stewardship**, replaces coercive bureaucracies with direct democratic participation.
 
 ## Socio-Ecological Foundation & Governance Architecture 
 
-![](assets/english-doughnut.jpg)
+![](../assets/english-doughnut.jpg)
 
 - **Doughnut Economics / [DEAL](https://doughnuteconomics.org/) (Macro-Framework & Eco-Social Accounting):**  
 Kate Raworth's Doughnut Economics form governance boundaries. The **Social Foundation** is codified as unconditional human rights, while the **Ecological Ceiling** (planetary limits) is bounded by a [global hectare](https://footprintnetwork.org/resources/glossary/#:~:text=global%20hectare%20(gha)) biocapacity tile (`gha_tile`), securing every individual's equal claim to the global commons ($1/2^{33}$).
