@@ -1,6 +1,6 @@
 # MANIFESTO
 
-<center>The people united will never be defeated!</center>
+<p align="center">The people united will never be defeated!</p>
 
 ## Part I — Critique
 
@@ -41,4 +41,4 @@ We count time from the beginning of civilisation, not from a birth in Bethlehem.
 
 ---
 
-<center>No nation, no border — anarchy is order.</center>
+<p align="center">No nation, no border — anarchy is order.</p>
