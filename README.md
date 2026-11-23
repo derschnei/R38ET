@@ -21,7 +21,7 @@ Operating entirely serverless over the **[Reticulum Network Stack (RNS)](https:/
 | [CONCEPT](CONCEPT.md) | The synthesis | how R38ET is built and why |
 | [README](README.md) | The architecture | how the code works |
 
-## The `sp0t-node` Software
+## The `sp0t_node` Software
 The architecture replaces heavy relational databases and complex custom parsers, with a **distributed repository** (`WoTGraph`, `NormLibrary`) as the single source of truth and **Catala** for formal logic checks.
 
 ### Core Architecture Components
