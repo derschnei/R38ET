@@ -15,10 +15,10 @@ Operating entirely serverless over the **[Reticulum Network Stack (RNS)](https:/
 
 | Document | What it is | Read it if you want to know |
 | :--- | :--- | :--- |
-| [MANIFESTO](MANIFESTO.md) | The demand | what we want, in ten minutes |
-| [PHILOSOPHY](PHILOSOPHY.md) | The intellectual lineage | where the ideas come from |
-| [HISTORY](HISTORY.md) | The register of attempts | what was tried, how, and why it failed |
-| [CONCEPT](CONCEPT.md) | The synthesis | how R38ET is built and why |
+| [MANIFESTO](docs/MANIFESTO.md) | The demand | what we want |
+| [PHILOSOPHY](docs/PHILOSOPHY.md) | The intellectual lineage | where the ideas come from |
+| [HISTORY](docs/HISTORY.md) | The register of attempts | what was tried, how, and why it failed |
+| [CONCEPT](docs/CONCEPT.md) | The synthesis | how R38ET is built and why |
 | [README](README.md) | The architecture | how the code works |
 
 ## The `sp0t_node` Software
@@ -102,11 +102,34 @@ r38et-mesh/
 github.com/R38ET/release/releases/latest
 
 ### 3. Start the Daemons `rns` and `sp0t-node`
-
 ```bash
 rnsd
 python3 src/sp0t_node.py start
 ```
+
+### 4. Joining the R38ET_mesh
+
+There are two ways in, and neither of them runs through this repository.
+
+**Through people.** The mesh grows by physical presence. Find someone who is already a member, meet them, and complete a SAS handshake. That is the whole admission process — no application, no account, no server.
+
+**Through the map.** Boards publish their location to an OpenStreetMap layer when they are founded, so that people who hear about R38ET online can see whether there is a board near them. The layer is fed from the boards' own `rngit` data, not from a centrally maintained list. Location precision follows the board's level:
+
+- **Level 1 (neighbourhood):** coordinates rounded to 0.01° — a point roughly 1 km across, not an address.
+- **Level 2 and above (public institutions):** exact coordinates. These bodies are public by nature and already have a published address.
+
+A marker is a claim made by the board at founding, not a verified fact. Treat it as a hint about where to look, not as proof that a board exists.
+
+### Telemetry
+The OSM-layer does not collect anything of its own. It reads what Reticulum already carries — announces, path discovery, link metrics — and renders it.
+
+Anything a node publishes beyond that follows three rules:
+
+1. **Opt-in.** Off by default. A node that has not enabled it sends nothing.
+2. **Declared.** Every telemetry destination is named in the node's `config/`, so it can be read, audited and disabled without reading source code.
+3. **Local first.** The node can always inspect its own telemetry stream before anyone else sees it.
+
+No telemetry is a condition of membership. A node that publishes nothing is a full member.
 
 ## License
 Documentation (`.md`) is licensed under **CC BY-SA 4.0** and code (`.py`, `.json`) under **GPL-3.0+**.  

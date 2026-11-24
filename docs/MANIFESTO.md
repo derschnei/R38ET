@@ -26,7 +26,7 @@ The prevailing capitalist economic order and the democratic systems of the last 
 
 **What everyone receives.** An unconditional basic share: water, food, housing, energy, education, infrastructure — independent of credits. A basic income for personal desire, with decay to prevent accumulation. A debt jubilee to begin from zero.
 
-**The way.** Not a seizure of power, but a build-up from below:
+**This is the way.** Not a seizure of power, but a grassroots build-up of true sovereignty:
 
 1. **Framework release** — the off-grid mesh stack, ready to run.
 2. **First neighbourhood councils** — the mesh begins to grow.
