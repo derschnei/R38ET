@@ -60,14 +60,17 @@ Every `NeighborhoodBoard` is linked to a public RRC channel address, directly de
 ```
 r38et-mesh/
 ├── assets/                   # Media & illustrations
-├── config/                   
+├── config/
 │   └── board.json            # Neighborhood board initialization & council configs
-├── docs/                     # Documentation
-│   └── PHILOSOPHY.md         # Philosophical lineage
+├── docs/                     # Documentation (English)
+│   ├── MANIFESTO.md          # Critique and proposal of the movement
+│   ├── PHILOSOPHY.md         # Philosophical lineage
+│   ├── HISTORY.md            # Register of attempts
+│   └── CONCEPT.md            # Synthesis of governance and architecture
 ├── norms/                    # Catala DSL specifications
 │   └── level_8/              # Constitutional basic human rights & invariants
 ├── schemas/                  # Formal JSON schemas for BitVecs, WoT & lifecycle
-│   └── governance.json       
+│   └── governance.json       # Governance, membership & lifecycle schemas
 ├── src/                      # Python runtime daemon & protocol engine
 │   └── sp0t_node.py
 ├── tests/                    # Unit & integration test suites
@@ -76,7 +79,7 @@ r38et-mesh/
 │   └── attestations.json
 ├── pyproject.toml            # PEP 621 package & tool configurations
 ├── LICENSE                   # GNU General Public License v3.0
-└── README.md                 # Project manifesto & architectural blueprint
+└── README.md                 # Architectural blueprint
 ```
 
 ## Quickstart
@@ -97,11 +100,11 @@ r38et-mesh/
   # opam install catala-lsp
   ```
 
-### 2. Download `sp0t-node`
+### 2. Download `sp0t_node`
 **pre-alpha, no release yet!**
 github.com/R38ET/release/releases/latest
 
-### 3. Start the Daemons `rns` and `sp0t-node`
+### 3. Start the Daemons `rns` and `sp0t_node`
 ```bash
 rnsd
 python3 src/sp0t_node.py start
@@ -113,14 +116,14 @@ There are two ways in, and neither of them runs through this repository.
 
 **Through people.** The mesh grows by physical presence. Find someone who is already a member, meet them, and complete a SAS handshake. That is the whole admission process — no application, no account, no server.
 
-**Through the map.** Boards publish their location to an OpenStreetMap layer when they are founded, so that people who hear about R38ET online can see whether there is a board near them. The layer is fed from the boards' own `rngit` data, not from a centrally maintained list. Location precision follows the board's level:
+**Through the map.** Boards publish their location to an OpenStreetMap layer when they are founded, so that people who hear about R38ET online can see whether there is a board near them. The layer is fed from the boards' own repo data, not from a centrally maintained list. Location precision follows the board's level:
 
 - **Level 1 (neighbourhood):** coordinates rounded to 0.01° — a point roughly 1 km across, not an address.
 - **Level 2 and above (public institutions):** exact coordinates. These bodies are public by nature and already have a published address.
 
 A marker is a claim made by the board at founding, not a verified fact. Treat it as a hint about where to look, not as proof that a board exists.
 
-### Telemetry
+#### Telemetry
 The OSM-layer does not collect anything of its own. It reads what Reticulum already carries — announces, path discovery, link metrics — and renders it.
 
 Anything a node publishes beyond that follows three rules:
